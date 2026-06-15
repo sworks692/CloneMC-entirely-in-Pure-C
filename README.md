@@ -29,9 +29,11 @@ Here are some screenshots
 
 <img width="959" height="503" alt="Screenshot 2026-06-15 020015" src="https://github.com/user-attachments/assets/45127caf-e314-4531-a879-a8e81c9d7763" />
 
-Important: Saved Worlds Do not currently save correctly, though it may work sometimes here and there. 
+Important Information And More: Saved Worlds Do not currently save correctly, though it may work sometimes here and there. 
 
-If any code in the program wants to be added or edited, it can be done through the project2finalalpha.c which contains over 15000 lines of code. Ctrl+F can help find code lines related to wanted functions or worlds like editing textures. AI tools can also help significanlty understand and even add new code/functions like adding ridable boats for example in the C program. 
+If any code in the program wants to be added or edited, it can be done through the project2finalalpha.c which contains over 15000 lines of code. Ctrl+F can help find code lines on Visual Studio Code related to wanted functions or worlds like editing textures. AI tools can also help significanlty understand and even add new code/functions like adding ridable boats for example in the C program. 
+
+To compile the .c file after desired edits are finished, install Open Watcom C/C++ compiler, then in command prompt run cd C:\Watcom, then run owsetenv.bat, and then run  "wcl386 project2finalalpha.c -fe=testing100.exe -lr=nt_win -l=win"  testing100 is the name of the desired exe file
 
 Heavy inspiration taken from ClassiCube
 
