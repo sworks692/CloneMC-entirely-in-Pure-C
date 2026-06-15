@@ -3,7 +3,7 @@ CloneMc is currently a highly early alpha version of a recreation or supposed re
 
 Commits and forks are highly recommend for this project to continue and actually succeed. 
 
-Many tools such as ChatGpt, Java files of beta verion, and Open Watcom have helped significantly in making this project possible. 
+Many tools such as extensive research through YouTube videos and Minecraft Wiki/Fandom, Reddit, Java files of beta verion, AI tools, and Open Watcom have helped significantly in making this project possible. 
 
 Fair warning that some of the textures and mob models are a bit severly broken, but still playable. 
 
@@ -38,7 +38,7 @@ Important Information And More: Saved Worlds Do not currently save correctly, th
 
 If any code in the program wants to be added or edited, it can be done through the project2finalalpha.c which contains over 15000 lines of code. Ctrl+F can help find code lines on Visual Studio Code related to wanted functions or worlds like editing textures. AI tools can also help significanlty understand and even add new code/functions like adding ridable boats for example in the C program. 
 
-To compile the .c file after desired edits are finished, install Open Watcom C/C++ compiler, then in command prompt run cd C:\Watcom, then run owsetenv.bat, and then run  "wcl386 project2finalalpha.c -fe=testing100.exe -lr=nt_win -l=win"  testing100 is the name of the desired exe file
+To compile the .c file after desired edits are finished, install Open Watcom C/C++ compiler, then in command prompt run cd C:\Watcom, and then cd binnt64, then run owsetenv.bat, and then run  "wcl386 project2finalalpha.c -fe=testing100.exe -lr=nt_win -l=win"  testing100 is the name of the desired exe file
 
 Heavy inspiration taken from ClassiCube
 
