@@ -7,7 +7,9 @@ Many tools such as ChatGpt, Java files of beta verion, and Open Watcom have help
 
 Fair warning that some of the textures and mob models are a bit severly broken, but still playable. 
 
-Here are still functions that still need to be implemented into Pure C program
+Here are still functions that still need to be implemented into Pure C program , 
+
+There will not be support to modern minecraft servers, minecraft accounts, and more related to avoid copyright issues. 
 
 ## Feature gaps still not fully added to the C game
 - **Full Java `ModelRenderer` hierarchy:** C now has cuboid mobs with Java-style limb math, but it still does not parse every Java model box/rotation point exactly.
