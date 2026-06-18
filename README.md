@@ -1,5 +1,5 @@
 # CloneMC-entirely-in-Pure-C
-CloneMc is currently a highly early alpha version of a recreation or supposed recreation of Minecraft beta 1.7.3 in Pure C that is able to run on systems as low as Windows XP and even Windows 98 (not tested). It currently only supports survival mode.
+CloneMc is currently a highly early alpha version of a recreation or supposed recreation of Minecraft beta 1.7.3 in Pure C With Open GL Rendering 1.1 that is able to run on systems as low as Windows XP and even Windows 98 (not tested). It currently only supports survival mode.
 
 Commits and forks are highly recommend for this project to continue and actually succeed. 
 
