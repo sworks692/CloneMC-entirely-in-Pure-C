@@ -38,7 +38,7 @@ To Run program, extract the zip files the get the folders of assets, docs, and s
 
 Important Information And More: Saved Worlds do not currently save correctly, though it may work sometimes here and there
 
-If any code in the program wants to be added or edited, it can be done through the project2finalalpha.c which contains over 15000 lines of code. Ctrl+F can help find code lines on Visual Studio Code related to wanted functions or worlds like editing textures. AI tools can also help significanlty understand and even add new code/functions like adding ridable boats for example in the C program. It is also highly recommded to make edits and code changes inside the experimental implementations recommended 7z file as it has a lot more implemtations that has the potential to look and work like the real deal. 
+If any code in the program wants to be added or edited, it can be done through the project2finalalpha.c which contains over 15000 lines of code. Ctrl+F can help find code lines on Visual Studio Code related to wanted functions or worlds like editing textures. AI tools can also help significanlty understand and even add new code/functions like adding ridable boats for example in the C program. It is also highly recommded to make edits and code changes inside the clonemc experimental implementations 7z file as it has a lot more implemtations that has the potential to look and work like the real deal. 
 
 
 
