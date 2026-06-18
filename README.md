@@ -36,7 +36,9 @@ Here are some screenshots
 To Run program, extract the zip files the get the folders of assets, docs, and saves, and also extract the additonal zip to get the music folder and put that along in the assets folder. THE ASSET FOLDER SHOULD NOT HAVE ANOTHER ASSET FOLDER INSIDE OF IT, IF IT DOES, TAKE IT OUT AND MAKE SURE WHEN OPENING ASSET DOLER THAT ALL ACTUAL ASSET FILES AND TEXTURES COME OUT FIRST. SAME GOES FOR THE OTHER FILES Then run testing100.exe and it should all work. 
 
 
-Important Information And More: Saved Worlds do not currently save correctly, though it may work sometimes here and there
+Important Information And More: Saved Worlds do not currently save correctly, clonemc experimental implementations program can work though.
+
+The goal of this program really is to show that the resources and tools available like AI tools currently can help spread and make programming development accessible to almost everyone around the world to create complex games/applications. Compared to just a couple of years ago where making complex games/applications would require extensive own knowledge of a programming langauge and years of experience, many people which don't have access to such higher education. 
 
 If any code in the program wants to be added or edited, it can be done through the project2finalalpha.c which contains over 15000 lines of code. Ctrl+F can help find code lines on Visual Studio Code related to wanted functions or worlds like editing textures. AI tools can also help significanlty understand and even add new code/functions like adding ridable boats for example in the C program. It is also highly recommded to make edits and code changes inside the clonemc experimental implementations 7z file as it has a lot more implemtations that has the potential to look and work like the real deal. 
 
