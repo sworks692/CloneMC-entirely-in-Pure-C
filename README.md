@@ -37,7 +37,7 @@ Improved Alpha Test Screenshot
 
 <img width="1280" height="720" alt="screenshot_1042968968" src="https://github.com/user-attachments/assets/6a7d351d-5d86-41bb-aba7-72483d0d012e" />
 
-To Run program, extract the zip files the get the folders of assets, docs, and saves, and also extract the additonal zip to get the music folder and put that along in the assets folder. THE ASSET FOLDER SHOULD NOT HAVE ANOTHER ASSET FOLDER INSIDE OF IT, IF IT DOES, TAKE IT OUT AND MAKE SURE WHEN OPENING ASSET DOLER THAT ALL ACTUAL ASSET FILES AND TEXTURES COME OUT FIRST. SAME GOES FOR THE OTHER FILES Then run testing100.exe and it should all work. 
+TO RUN PROGRAM, extract the zip files the get the folders of assets, docs, and saves, and also extract the additonal music zip to get music and put that along in the assets folder. THE ASSET FOLDER SHOULD NOT HAVE ANOTHER ASSET FOLDER INSIDE OF IT, IF IT DOES, TAKE IT OUT AND MAKE SURE WHEN OPENING ASSET DOLER THAT ALL ACTUAL ASSET FILES AND TEXTURES COME OUT FIRST. SAME GOES FOR THE OTHER FILES. Then run testing100.exe or the other one and it should all work. ASSETNEW FOLDER IS RECOMMENDED TO USE WHICH SHOULD BE RENAMED BACK TO JUST "ASSETS" FOLDER IN THE SAME FOLDER AS WHERE THE EXECUTABLE IS with also the asset files coming out first instead of just another assets folder. 
 
 
 Important Information For Compiling And More: Saved Worlds do save somwehat well and correctly in the new version, not really in the deprecated version though.
@@ -45,6 +45,8 @@ Important Information For Compiling And More: Saved Worlds do save somwehat well
 The goal of this program really is to show that the resources and tools available that can help spread and make programming development accessible to almost everyone around the world to create complex games/applications without much if any money. Compared to just a couple of years ago where making complex games/applications would require extensive own knowledge of a programming langauge and years of experience, many people which don't have access to such higher education. AI tools were mainly used for the UV mapping (needs significant improvement), world generation, crafting recipes, basic movement, and day and night cycle while textures, sounds, mob models, icons, items, algorithims, GUIs, and many more were hand written.  
 
 To compile the src folder if desired edits are done and create an executable, move the src folder into the CloneMCtest + Makefile folder for organization, then install Open Watcom C/C++ compiler, and in command prompt, un cd C:\Watcom, then run owsetenv.bat and then cd binnt64, and then from the CloneMCtest + Makefile folder, take the project2finalalpha.c, clonemc_v58_nt_win link file, and Makefile.v58.wat and put it in binnt64 folder, binnt folder can also work if compiling in 32 bit systems. Then run "wmake -f Makefile.v58.wat" which should create executable and put it in the CloneMCtest + Makefile folder along with the asset folder. Make sure to delete the .obj and src folders related to the project in binnt64 if process is needed to start over, the makefiles and link files can be edited to change the output names of the executables created for example. 
+
+project2finalalpharecreation.c used to be entire code in a c file, now it is just a linker file for the src folder. 
 
 Heavy inspiration taken from ClassiCube
 
