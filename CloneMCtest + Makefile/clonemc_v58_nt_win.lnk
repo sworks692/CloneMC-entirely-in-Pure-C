@@ -1,0 +1,4 @@
+system nt_win
+name CloneMC_V58_Terrain_Texture_Default.exe
+file project2finalalpharecreation.obj
+library opengl32.lib,glu32.lib,gdi32.lib,user32.lib,winmm.lib
