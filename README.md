@@ -34,7 +34,8 @@ Here are some early test screenshots
 <img width="959" height="503" alt="Screenshot 2026-06-15 020015" src="https://github.com/user-attachments/assets/45127caf-e314-4531-a879-a8e81c9d7763" />
 
 Improved Alpha Test Screenshot
-[screenshot_1042968968.bmp](https://github.com/user-attachments/files/29323445/screenshot_1042968968.bmp)
+<img width="1280" height="720" alt="screenshot_1042968968" src="https://github.com/user-attachments/assets/6a7d351d-5d86-41bb-aba7-72483d0d012e" />
+
 
 
 To Run program, extract the zip files the get the folders of assets, docs, and saves, and also extract the additonal zip to get the music folder and put that along in the assets folder. THE ASSET FOLDER SHOULD NOT HAVE ANOTHER ASSET FOLDER INSIDE OF IT, IF IT DOES, TAKE IT OUT AND MAKE SURE WHEN OPENING ASSET DOLER THAT ALL ACTUAL ASSET FILES AND TEXTURES COME OUT FIRST. SAME GOES FOR THE OTHER FILES Then run testing100.exe and it should all work. 
