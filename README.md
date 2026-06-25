@@ -25,7 +25,7 @@ GAME CREATED USING CLEAN ROOM IMPLEMENTATIONS AND REVERSE ENGINEERING IN OPEN WA
 - **Full sound pool randomization:
 - **Networking/multiplayer
 
-Here are some screenshots 
+Here are some early test screenshots 
 
 <img width="694" height="403" alt="Screenshot 2026-06-15 011818" src="https://github.com/user-attachments/assets/6eb74565-fa59-4ade-be6c-a7acd4c1c093" />
 
