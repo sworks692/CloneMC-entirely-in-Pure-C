@@ -56,7 +56,7 @@ OpenGL 1.1 was mainly used for this entire program becuase of its compatibility 
 Compatibility for this program can definetly run on systems as low as Windows XP, although, with some performance issues currently, but still playable. Windows 98 is uncertain, but it has all the code and period correct dependencies to run the program, and possibly even be playable. The network stack even has Winsock 2 which should be able to connect to servers and have multiplayer, though for optimal terrain generation for multiplayer, zlib.dll must be found which is usually located in C:\Windows\system32\ or C:\Windows\SysWow64\
 
 
-Important Information For Compiling And More: 
+## Important Information For Compiling And More 
 
 Saved Worlds do save somwehat well and correctly in the new version, not really in testing100.exe though.
 
