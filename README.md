@@ -1,6 +1,12 @@
 # CloneMC-entirely-in-Pure-C
 CloneMc is currently a highly early alpha version of a recreation or supposed recreation of Minecraft beta 1.7.3 in Pure C With Open GL Rendering 1.1 that is able to run on systems as low as Windows XP and technically can even run on Windows 98. It currently only supports survival mode.
 
+If anyone is needing to play on the newest zip version of this program CloneMCSingleMultiCodeTest.zip, the zlib.dll from the DLLS folder is a bit too new for old systems, so it is highly recommded it is swapped out for older versions of operating system chosen in C:\Windows\System32. Singleplayer worlds is a bit weird. 
+
+The second newest version of this program, in the CloneMCtest + Makefile folder, has good singleplayer worlds, but doesn't support multiplayer like the newest version. 
+
+Testing100.exe was the very first version of this program, it is basically just there now. 
+
 Commits and forks are highly recommend for this project to continue and actually succeed. 
 
 Many tools such as extensive research through YouTube videos, Minecraft Wiki/Fandom, Reddit, java examinations of beta verion, AI tools, and Open Watcom have helped significantly in making this project possible. 
@@ -48,10 +54,16 @@ Saved Worlds do save somwehat well and correctly in the new version, not really 
 
 The goal of this program really is to show that the resources and tools available that can help spread and make programming development accessible to almost everyone around the world to create complex games/applications without much if any money. Compared to just a couple of years ago where making complex games/applications would require extensive own knowledge of a programming langauge and years of experience, many people which don't have access to such higher education. AI tools were mainly used for the UV mapping of textures (needs significant improvement), world generation, crafting recipes, basic movement, and day and night cycle while textures, sounds, mob models, icons, items, algorithims, GUIs, and many more were hand written.  
 
-To compile the src folder if desired edits are done and create an executable, move the src folder into the CloneMCtest + Makefile folder for organization, then install Open Watcom C/C++ compiler, and in command prompt, run cd C:\Watcom, then run owsetenv.bat and then cd binnt64, and then from the CloneMCtest + Makefile folder, take the project2finalalpha.c, clonemc_v58_nt_win link file, and Makefile.v58.wat and put it in binnt64 folder, binnt folder can also work if compiling in 32 bit systems. Then run "wmake -f Makefile.v58.wat" which should create executable and put it in the CloneMCtest + Makefile folder along with the asset folder. Make sure to delete the .obj and src folders related to the project in binnt64 if process is needed to start over, the makefiles and link files can be edited to change the output names of the executables created for example. project2finalalpharecreation.c used to be entire code in a c file, now it is just a linker file for the src folder. 
+If extracting the newest current test zip "CloneMCSingleMultiCodeTest.zip" is done and the code in src is edited and finished for compiling. Install Open Watcom C/C++ compiler, and in command prompt, run cd C:\Watcom, then run owsetenv.bat and then cd binnt64, and then from the extracted and code edited CloneMCSingleMultiCodeTest folder, take the project2finalalpha.c, clonemc_v74_nt_win link file, and Makefile.v74.wat and put it in binnt64 folder, binnt folder can also work if compiling in 32 bit systems. Then run "wmake -f Makefile.v74.wat" which should create a new executable and put it in the CloneMCtest + Makefile folder along with the asset folder. Make sure to delete the .obj and src folders related to the project in binnt64 if process is needed to start over, the makefiles and link files can be edited to change the output names of the executables created for example. 
+
+If the src folder in the github repo is edited and should be put in the second new test folder, CloneMCtest + Makefile, Install Open Watcom C/C++ compiler, and in command prompt, run cd C:\Watcom, then run owsetenv.bat and then cd binnt64, and then from the CloneMCtest + Makefile folder, take the src folder, project2finalalpha.c, clonemc_v58_nt_win link file, and Makefile.v58.wat and put it in binnt64 folder, binnt folder can also work if compiling in 32 bit systems. Then run "wmake -f Makefile.v58.wat" which should create executable and put it in the CloneMCtest + Makefile folder along with the asset folder. Make sure to delete the .obj and src folders related to the project in binnt64 if process is needed to start over, the makefiles and link files can be edited to change the output names of the executables created for example. project2finalalpharecreation.c used to be entire code in a c file, now it is just a linker file for the src folder. 
 
 
-Some of the c files for functions and features like mob rendering, textures, and world gen, and a little more may be mixed throughout the files, but it likely should be manageable to still work on the project. If anyone wants to compile the everythinginonefile.c, just run the bat file in watcom directory, copy the file into the binnt64 or binnt, run and run wcl386 everythinginonefile.c -fe=testing102.exe -lr=nt_win -l=win, from either chosen two binnt folders. 
+Some of the c files for functions and features like mob rendering, textures, and world gen, and a little more may be mixed throughout the files, but it likely should be manageable to still work on the project. 
+
+There is proper documentation if anyone wants to work on this a little. 
+
+If anyone wants to compile the everythinginonefile.c, just run the bat file in watcom directory, copy the file into the binnt64 or binnt, run and run wcl386 everythinginonefile.c -fe=testing102.exe -lr=nt_win -l=win, from either chosen two binnt folders. 
 
 Heavy inspiration taken from ClassiCube
 
