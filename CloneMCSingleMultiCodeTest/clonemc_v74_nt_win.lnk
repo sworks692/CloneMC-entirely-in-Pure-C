@@ -1,0 +1,10 @@
+# CloneMC V74 linker response
+# The target system is supplied by wcl386 -l=nt_win in the makefile.
+option quiet
+option stack=1048576
+library opengl32.lib
+library glu32.lib
+library gdi32.lib
+library user32.lib
+library winmm.lib
+library ws2_32.lib
