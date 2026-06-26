@@ -47,6 +47,14 @@ Improved Alpha Test Screenshot
 
 TO RUN PROGRAM, extract the zip files the get the folders of assets, docs, and saves, and also extract the additonal music zip to get music and put that along in the assets folder. THE ASSET FOLDER SHOULD NOT HAVE ANOTHER ASSET FOLDER INSIDE OF IT, IF IT DOES, TAKE IT OUT AND MAKE SURE WHEN OPENING ASSET DOLER THAT ALL ACTUAL ASSET FILES AND TEXTURES COME OUT FIRST. SAME GOES FOR THE OTHER FILES. Then run testing100.exe or the other one and it should all work. ASSETNEW FOLDER IS RECOMMENDED TO USE WHICH SHOULD BE RENAMED BACK TO JUST "ASSETS" FOLDER IN THE SAME FOLDER AS WHERE THE EXECUTABLE IS with also the asset files coming out first instead of just another assets folder. 
 
+## How This Program Works With Compatibility
+
+Mobs and items are mapped with textures using UV mapping of tga which Windows 98 and later operating systems like Windows XP supports. The uv mapping however in blocks is severly messed up, but still playable and able to be figured out. There will be fixes for that soon. The cuboid models/math were reverse engineered from the java files examined in the beta version which heavily helped with this project. 
+
+OpenGL 1.1 was mainly used for this entire program becuase of its compatibility with older operating systsem like WIndows XP or 98 and it able to immediately start up for instance without proper grpahics drivers, though with that, perforamnce may significanlty suffer. The lighting, color shading, chunk meshing, and even optimizations like adding vsync and coded limited render distance limits were added to help give as much performance and fps as possible in this program. The game also doesn't draw hidden block faces and groups visible faces to prevent the lag spikes which used to be really bad during development. Running complex servers however may significantly suffer currently, espeically if it has a lot of stuff and complex shapes, but it can still work, more info in the next paragraph. 
+
+Compatibility for this program can definetly run on systems as low as Windows XP, although, with some performance issues currently, but still playable. Windows 98 is uncertain, but it has all the code and period correct dependencies to run the program, and possibly even be playable. The network stack even has Winsock 2 which should be able to connect to servers and have multiplayer, though for optimal terrain generation for multiplayer, zlib.dll must be found which is usually located in C:\Windows\system32\ or C:\Windows\SysWow64\
+
 
 Important Information For Compiling And More: 
 
