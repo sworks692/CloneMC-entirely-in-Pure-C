@@ -1,7 +1,7 @@
 # CloneMC-entirely-in-Pure-C
 CloneMc is currently a highly early alpha version of a recreation or supposed recreation of Minecraft beta 1.7.3 in Pure C With Open GL Rendering 1.1 that is able to run on systems as low as Windows XP and technically can even run on Windows 98. 
 
-If anyone is needing to play on the newest zip version of this program CloneMCSingleMultiCodeTest.zip, the zlib.dll from the DLLS folder is a bit too new for old systems, so it is highly recommded it is swapped out for older versions of operating system chosen in C:\Windows\System32. Singleplayer worlds is a bit weird. 
+If anyone is needing to play on the newest zip version of this program CloneMCSingleMultiCodeTest.zip, the zlib.dll from the DLLS folder is a bit too new for old systems, so it is highly recommded it is swapped out for older versions of operating system chosen in C:\Windows\System32. Singleplayer worlds is a bit weird. There is also a zip file with a zlib.dll file in the dll32 subfolder, this folder was from ZLIB dll home page. 
 
 The second newest version of this program, in the CloneMCtest + Makefile folder, has good singleplayer worlds, but doesn't support multiplayer like the newest version. 
 
