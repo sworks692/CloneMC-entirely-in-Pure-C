@@ -72,8 +72,6 @@ There is proper documentation if anyone wants to work on this a little.
 
 If anyone wants to compile the everythinginonefile.c, just run the bat file in watcom directory, copy the file into the binnt64 or binnt, run and run wcl386 everythinginonefile.c -fe=testing102.exe -lr=nt_win -l=win, from either chosen two binnt folders. 
 
-Heavy inspiration taken from ClassiCube
-
 
 
 
